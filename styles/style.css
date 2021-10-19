@@ -7,21 +7,26 @@
 
 header{
    background-color: hsl(218, 28%, 13%);
-   position:fixed;
    width:100%;
 }
-.nav-bar{
+.nav-links{
     display:inline;
     float:right;
     margin:5.5rem 3rem;
 }
-.nav-bar a{
+.nav-links a{
     color:hsl(0, 0%, 100%);
+    opacity:0.8;
     padding:1.8rem;
     text-decoration:none;
     font-family:'Open Sans', sans-serif;
 }
 .logo{
     padding:4.8em;
-    padding-bottom:0;
+}
+.container-top{
+    background-color: hsl(218, 28%, 13%);
+}
+.illustration-one{
+     text-align: center;
 }
