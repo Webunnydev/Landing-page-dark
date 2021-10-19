@@ -1,4 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
 *{
     margin:0;
     padding:0;
+}
+
+header{
+   background-color: hsl(218, 28%, 13%);
+   position:fixed;
+   width:100%;
+}
+.nav-bar{
+    display:inline;
+    float:right;
+    margin:5.5rem 3rem;
+}
+.nav-bar a{
+    color:hsl(0, 0%, 100%);
+    padding:1.8rem;
+    text-decoration:none;
+    font-family:'Open Sans', sans-serif;
+}
+.logo{
+    padding:4.8rem;
 }
