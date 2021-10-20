@@ -37,14 +37,8 @@ header{
 .illustration-one img{
     max-width:100%;
 }
-.bg-curve-desktop{
-    width:100%;
-    margin-top:-17rem;
-}
-.bg-curve-mobile{
-    display:none;
-}
 .container-top-content{
+    background-image:url("../images/bg-curvy-desktop.svg");
     color: hsl(0, 0%, 100%);
     text-align:center;
 }
