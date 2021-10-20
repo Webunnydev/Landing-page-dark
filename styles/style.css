@@ -40,7 +40,6 @@ header{
 .bg-curve-desktop{
     width:100%;
     margin-top:-17rem;
-    display: block;
 }
 .bg-curve-mobile{
     display:none;
@@ -80,11 +79,16 @@ header{
  }
  .font-icons{
      background-color:hsl(218, 28%, 13%);
+     margin-top:-1rem;
  }
  .icon-row{
-    column-count:2;
-    column-gap:21em;
-    width:50%;
-    margin:auto;
-    text-align:center;
+     display:grid;
+     grid-auto-flow:column;
+     text-align:center;
+     color: hsl(0, 0%, 100%);
+ }
+ .icon-column-left, .icon-column-right{
+     width:100%;
+     margin:1em auto;
+     width:50%;
  }
