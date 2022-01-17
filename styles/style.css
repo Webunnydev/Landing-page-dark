@@ -5,6 +5,9 @@
     margin:0;
     padding:0;
 }
+h2{ font-family:'Raleway', sans-serif;}
+P{  font-family:'Open Sans','sans-serif';
+    opacity:0.8;}
 
 header{
    background-color: hsl(217, 28%, 15%);
@@ -31,12 +34,9 @@ header{
 .container-top{
     background-color: hsl(217, 28%, 15%);
 }
-.illustration-one{
-     text-align: center;
-}
-.illustration-one img{
-    max-width:100%;
-}
+.illustration-one{ text-align: center;}
+.illustration-one img{ max-width:100%;}
+
 .container-top-content{
     color: hsl(0, 0%, 100%);
     text-align:center;
@@ -59,9 +59,7 @@ header{
      max-width:40%;
      margin:auto;
      line-height:1.6em;
-     opacity:0.8;
      font-size:1.3vw;
-     font-family:'Open Sans','sans-serif';
      word-spacing:2px;
  }
  button{
@@ -87,20 +85,60 @@ header{
      max-width:100%;
      padding:0 5em 5em 5em;
  }
- .icon-column-right img{ height:32%;}
+ .icon-column-right img{ height:28%;}
  .icon-column-left p{ max-width:55%;}
  .icon-column-right p{ max-width:60%;
  }
  .icon-column-left h2, .icon-column-right h2{
-     font-family:'Raleway', sans-serif;
      letter-spacing:1px;
-     font-size:1.2rem;
+     font-size:1.3rem;
      padding:0.8em;
  }
  .icon-column-left p, .icon-column-right p{
-     font-family:'Open Sans','sans-serif';
-     font-size:13px;
+     font-size:14px;
      margin:auto;
-     opacity:0.8;
      line-height:22px;
  }
+.container-main{
+    background-color:hsl(218, 28%, 13%);
+    margin-top:-1em;
+}
+.container-main-row{
+    display:flex;
+    flex-direction:row;
+    max-width:100%;
+}
+.illustration-two{  
+    width:42.5vw;
+    height:auto;
+    padding:4.5em 0 0 6.5em;
+}
+.container-main-content{ 
+    float:left; 
+    color:hsl(0, 0%, 100%);
+    padding:10.5em 7em 0 12em;
+    margin-left:-8em;
+    max-width:80%;
+}
+.container-main-content h2{ 
+    max-width:80%;
+    font-size:2.8vw;
+    line-height:1.3em;
+    padding:0.2em 0 0.5em 0;
+}
+.container-main-content p{ 
+    max-width:39vmax;
+    line-height:1.5em;
+}
+.cm-arrow-link{
+    display:flex;
+    color:hsl(176, 68%, 64%);
+    border-bottom: 0.8px solid cyan;
+    width: fit-content;
+    padding:0.3em 0 6px 0;
+}
+.cm-arrow-link h4{
+    font-family:'Open Sans','sans-serif';
+    font-weight:400; 
+}
+ 
