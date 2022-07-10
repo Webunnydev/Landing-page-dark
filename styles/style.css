@@ -141,20 +141,51 @@ header{
     font-family:'Open Sans','sans-serif';
     font-weight:400; 
 }
-.cm-arrow-link img { padding:0.3em 0 0 0.5em; }
+.cm-arrow-link img { padding:0.3em 0 0 0.3em; }
 .testimonials{
     background-color:hsl(218, 28%, 13%);
     margin-top:-1em;
-    display:flex;
+    max-width:100%;
 }
 .testimonials img{
-    padding:20px;
+    margin:10em 0 0 8em;
+}
+.testimonial-quotes{
+    display:flex;
+    min-width:50%;
+    margin:-2em 5em 0 7.5em;
+}
+.test{
+    background-color: hsl(219, 30%, 18%);
+    margin:20px;
+    width:29%;
+    border-radius:2%;
 }
 .test p{
  font-size:13px;
  color:hsl(0, 0%, 100%);
- width:30%;
- position:relative;
- 
- margin:
+ width:85%;
+ margin:2.5em;
+ line-height:21px;
+ letter-spacing:1px;
+}
+.testimonials-profile{
+ display:flex;
+ letter-spacing:1px;  
+ }
+.testimonials-profile img{
+    border-radius: 50%;
+    height:1.5em;
+    margin:-0.5em 1em 0 1.8em;
+}
+.testimonials-profile h1{
+    color:hsl(0, 0%, 100%);
+    font-family:'Open Sans','sans-serif';
+    font-size:10px;
+    width:100%;
+    margin:-0.8em 0 0 -0.5em;
+}
+.testimonials-profile h1 p{
+    margin:0 0 20px 0px;
+    font-size:8px;
 }
