@@ -126,7 +126,7 @@
                 questions, our support team would be happy to help you.</p>
         </div>
         <div class="get-access-email-id">
-            <form>
+            <form onsubmit="sendEmail(); reset(); return false;">
                 <input type="email" id="email" placeholder="email@example.com">
             <button type="submit">Get Started For Free</button>
             </form>
@@ -134,5 +134,21 @@
         </div>
     </div>
     </section>
+    <script src="https://smtpjs.com/v3/smtp.js"> 
+        function sendEmail(){
+            Email.send({
+                Host: "smtp.gmail.com",
+                Username: "email id",
+                Password: "password",
+                To: 'mail',
+                From: document.getElementById("email").value,
+                Subject: "Contact",
+                Body: "email: " + document.getElementById("email").value
+            }).then(
+                message => alert("Message Sent Succesfully")
+            );
+
+        }
+    </script>
 </body>
 </html>
