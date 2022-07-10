@@ -208,3 +208,16 @@ header{
     margin:auto;
     width:75%;
 }
+.get-access-email-id{ margin:2em 0 0 0;}
+form input{
+    border:none;
+    padding:18px 22em 18px 3em;
+    outline:none;
+    border-radius:50px 50px 50px 50px;
+}
+form button{
+    padding:18px 35px 18px 35px;
+    margin:0 0 3em 1em;
+    font-size:13px;
+    cursor:pointer;
+}
