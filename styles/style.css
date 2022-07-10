@@ -135,10 +135,18 @@ header{
     color:hsl(176, 68%, 64%);
     border-bottom: 0.8px solid cyan;
     width: fit-content;
-    padding:0.3em 0 6px 0;
+    padding:0.5em 0.5em 6px 0;
 }
 .cm-arrow-link h4{
     font-family:'Open Sans','sans-serif';
     font-weight:400; 
+}
+.cm-arrow-link img { padding:0.3em 0 0 0.5em; }
+.testimonials{
+    background-color:hsl(218, 28%, 13%);
+    margin-top:-1em;
+}
+.testimonials img{
+    padding:20px;
 }
  
