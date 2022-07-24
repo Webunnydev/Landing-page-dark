@@ -25,15 +25,9 @@ header{
     text-decoration:none;
     font-family:'Raleway', sans-serif;
 }
-.logo{
-    padding:4.8em;
-}
-.logo img{
-    max-width:100%;
-}
-.container-top{
-    background-color: hsl(217, 28%, 15%);
-}
+.logo{ padding:4.8em; }
+.logo img{ max-width:100%; }
+.container-top{ background-color: hsl(217, 28%, 15%);}
 .illustration-one{ text-align: center;}
 .illustration-one img{ max-width:100%;}
 
@@ -134,12 +128,13 @@ header{
     display:flex;
     color:hsl(176, 68%, 64%);
     border-bottom: 0.8px solid cyan;
-    width: fit-content;
+    width: fit-content ;
     padding:0.5em 0.5em 6px 0;
 }
 .cm-arrow-link h4{
     font-family:'Open Sans','sans-serif';
     font-weight:400; 
+    width:100%;
 }
 .cm-arrow-link img { padding:0.3em 0 0 0.3em; }
 .testimonials{
@@ -190,7 +185,9 @@ header{
 }
 .get-access{ 
     background-color:hsl(218, 28%, 13%); 
-    margin-top:-1em;}
+    margin-top:-1em;
+    height:150px;
+}
 .get-acces-main{
     background-color:hsl(222, 31%, 15%) ;
     width:60%;
@@ -199,6 +196,7 @@ header{
     color: hsl(0, 0%, 100%);
     text-align:center;
     border-radius:5px;
+    position:relative;
 }
 .get-access-content h2{
    font-size:2em;
@@ -218,7 +216,64 @@ form input{
 }
 form button{
     padding:18px 35px 18px 35px;
-    margin:0 0 3em 1em;
+    margin:1em 0 3em 1em;
     font-size:13px;
     cursor:pointer;
+}
+footer{background-color:hsl(216, 53%, 9%); }
+.fylo-footer{
+    padding-top:8em;
+    display:flex;
+    max-width:100%;
+    color:hsl(0, 0%, 100%);
+}
+.fylo-footer img{ padding:0.7em 0 0 2.2em; }
+.fylo-content{
+    padding:4.8em 4.8em 10em 5.2em;
+    width:50%;
+    margin:auto;
+    line-height:24px;
+}
+.fylo-content-location{
+    display:flex;
+    padding-top:1.9em;
+}
+.fylo-content-location img{ padding:0 2em 0 2.1em; }
+.fylo-content p{ font-size:16px; }
+.fylo-mail{
+    width:25%;
+    margin:9.7em 0 0 -3em;
+}
+.fylo-mail-1,.fylo-mail-2{
+    display:flex;
+    padding: 0.5em;
+}
+.fylo-mail-1 p,.fylo-mail-2 p{
+    padding:0.7em 0 0 2em;
+    font-size:15px;
+}
+.fylo-about-us{
+    width:20%;
+    margin:10.2em 0em 0 7.5em;
+}
+.fylo-about-us li, .fylo-contact-us li{
+   list-style:none;
+   line-height: 2.5em;
+   font-family:'Open Sans','sans-serif';
+   opacity:0.8;
+}
+.fylo-contact-us{
+    width:20%;
+    margin:10.2em 0 0 2em;    
+}
+.fylo-social-icons{
+    width:35%;
+    margin:10em 2em 0 2em;
+}
+.fylo-social-icons i{
+    border-radius:50%;
+    border:1px solid white;
+    font-size:1em;
+    padding:0.8em;
+    margin:0.3em;
 }
