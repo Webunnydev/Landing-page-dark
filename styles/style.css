@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
-
 *{
     margin:0;
     padding:0;
@@ -133,7 +132,7 @@ header{
     display:flex;
     color:hsl(176, 68%, 64%);
     border-bottom: 0.8px solid cyan;
-    width: fit-content ;
+    width: fit-content;
     padding:0.5em 0.5em 6px 0;
 }
 .cm-arrow-link h4{
@@ -169,7 +168,7 @@ border-bottom:0.8px solid white;
 .test p{
  font-size:13px;
  color:hsl(0, 0%, 100%);
- width:85%;
+ max-width:85%;
  margin:2.5em;
  line-height:21px;
  letter-spacing:1px;
@@ -296,3 +295,4 @@ footer{background-color:hsl(216, 53%, 9%); }
     border:1px solid hsl(176, 68%, 64%);
 }
 .fylo-mail p:hover, .fylo-about-us li:hover, .fylo-contact-us li:hover{ opacity:1; }
+

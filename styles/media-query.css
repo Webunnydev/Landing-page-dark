@@ -1,0 +1,123 @@
+@media all and (max-width:480px)
+{ 
+ header{  margin:-3.4em 0 0 0; }
+
+ .nav-links{ 
+   font-size:3vw;
+   width:55%;
+   margin-bottom:-2.5em;
+ }
+ .nav-links a {  padding:0.5em; }
+ 
+ .logo img{
+     width:30%;
+     margin:0.5em 0 0 -3.5em;
+     padding-top:-10em;
+ }
+ .illustration-one img{
+     width:80%;
+     margin-top:-1em;
+ }
+  
+ .container-top-content h1{
+     font-size:7vw;
+     max-width:90%;
+ }
+ .container-top-content p{
+     font-size:3.75vw;
+     max-width:85%;
+ }
+ button{
+    font-size:3vw;
+    margin:auto;
+}
+ .icon-row h2, .icon-column h2{
+     width:80%;
+     margin:auto;
+ }
+ .icon-row p, .icon-column p{
+  max-width:75%;
+  font-size: 16px;
+ 
+ }
+ .icon-row{
+     display:flex;
+     flex-direction:column;
+     margin:1em 0 0 0 ;
+     padding:1em 0 0 0;
+ }
+ .icon-column-left{ margin:7em 0 0 0; }
+ .icon-column-right{ padding-top:7em; }
+ .container-main-row{
+    flex-direction:column;
+     max-width:100%;
+}
+ .illustration-two{
+     width:75vw;
+    padding:8em 2em 5em 2em;
+    margin:auto;
+ }
+.container-main-content{
+    max-width:90%;
+    padding:1em 0 0 10em;
+ }
+ .container-main-content h2{
+     max-width:90%;
+    font-size:23px;
+ }
+.container-main-content p{ 
+    max-width:90%;
+     font-size:17px;
+}
+.bg-quotes{
+    width:5vw;
+    height:5vw;   
+}
+.testimonials{
+    padding:0 5em 0 0;
+    height:auto;
+}
+.testimonial-quotes{
+    width:105%;
+    flex-direction:column;  
+    margin:0 0 0 0.6em;
+}  
+.test{  width:100%;   }
+.get-access{ padding-top:5em; }
+.get-acces-main{ width:90%;  }
+.get-access-content h2{ font-size:5vw; }
+.get-access-content p{
+    font-size:3.5vw;
+    width:80%;
+}
+ form input{ padding:1.5em 1em 1.5em 2em;}
+ .fylo-footer{ flex-direction:column; }
+.fylo-content img{
+    width:80%;
+    margin:6.8em 0 0 -5em;
+}
+.fylo-content{
+    padding:4.8em 0 10em 2.5em;
+    margin:1em 1em 1em 3em;
+    width:50%;
+    line-height:24px;
+}
+.fylo-content-location img{ 
+    width:4em;
+    margin:0 0em 0 -6em; }
+.fylo-content p{ font-size:3.8vw;}
+.fylo-mail{
+    width:95%;
+    margin:-9em 0 0 -1em;
+}
+.fylo-about-us, .fylo-contact-us{
+    width:50%;
+    margin:3em 0 0 1.5em;
+    font-size:4vw;
+}
+.fylo-social-icons{
+    min-width:65vw;
+    margin:1em;
+}
+
+}
