@@ -1,4 +1,4 @@
-@media all and (max-width:480px)
+@media all and (max-width:550px)
 { 
  header{  margin:-3.4em 0 0 0; }
 
@@ -121,3 +121,52 @@
 }
 
 }
+@media only screen and (min-width:551px) and (max-width:982px)
+{  
+     .nav-links a{  padding:1rem; }
+     .logo{ padding:1em;  }
+     .logo img{ margin-top:3.5em; }
+     
+    .container-top-content h1{
+        max-width:80%;     
+        font-size:4vw;     
+        }
+      
+    .icon-column-right img{ height:25%;}
+    .icon-column-left p{ min-width:80%;}
+    .icon-column-right p{ min-width:90%;}
+
+    .icon-column-left h2, .icon-column-right h2{
+            font-size:1rem;
+            padding-top:4.5em;
+        }
+    .container-main-row{  flex-direction:column;  }
+    .illustration-two{    width:70vw;  }
+    .container-main-content{   padding:6em 7em 0 12em;  }
+    .container-main-content p{   max-width:30em; }
+    .testimonials img{ margin:10em 0 0 8em; }
+
+    .testimonial-quotes{
+            min-width:100%;
+            margin:-2em 5em 0 0;
+        }
+    .test{  width:40%;  }
+    .test p{ font-size:8px; }
+    .testimonials-profile img{    margin:-0.5em 1em 0 1.8em; }
+     form input{  padding:18px 5em 18px 3em; }         
+    .fylo-footer img{ padding:10em 0 0 0; }
+
+    .fylo-content{
+            padding:4.8em 4.8em 10em 1em;
+            max-width:30%;
+        }
+       
+    .fylo-content-location img{ padding:0 1em 0 1em; }   
+    .fylo-mail{ display:none; }
+    .fylo-about-us{   margin:20em 0 0 0; }
+     .fylo-about-us li, .fylo-contact-us li{   width:100px;  }
+    .fylo-contact-us{    margin:20em 0 0 0;    }
+    .fylo-social-icons{  margin:20em 0 0 0;  }
+    
+}
+
