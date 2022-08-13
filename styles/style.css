@@ -296,3 +296,12 @@ footer{background-color:hsl(216, 53%, 9%); }
 }
 .fylo-mail p:hover, .fylo-about-us li:hover, .fylo-contact-us li:hover{ opacity:1; }
 
+.attribution{
+    text-align:center;
+    background-color: tomato;
+    color:white;
+}
+.attribution a{
+    color:black;
+    text-decoration:none;
+}
