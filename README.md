@@ -2,12 +2,16 @@
 A responsive dark theme landing page layout created with HTML, CSS, and JavaScript.
 Challenge by [Frontend Mentor](https://www.frontendmentor.io)
 
+Live Site URL : [https:Live Site URL //webunnydev.github.io/Landing-page-dark/]( https://webunnydev.github.io/Landing-page-dark/)
+
 # What is the Landing page?
 A standalone web page for a marketing effort is called a landing page. Landing pages provide a single call to action or target (or CTA, for short).
 
 # Table of contents
 
  [Overview](#view)
+ 
+ [Built with](#built)
  
  [Screenshot](#screen)
  
@@ -18,6 +22,15 @@ A standalone web page for a marketing effort is called a landing page. Landing p
 Apart from the challenge criteria, I did extra work on its responsiveness. 
 
 This standalone web page has customized for all media queries, including iPhone, Tab, Mobile, and Desktop.
+
+<a name="built"></a>
+# Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- [Styled Components](https://styled-components.com/)
 
 <a name="screen"></a> 
 # Screenshot
